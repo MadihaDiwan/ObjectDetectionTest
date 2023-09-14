@@ -2,6 +2,7 @@ import cv2 as cv
 from matplotlib import pyplot as pyt
 
 img = cv.imread("image2.jpeg")
+print("The image is fetched....")
 
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 img_rgb = cv.cvtColor(img, cv.COLOR_BGR2RGB)
